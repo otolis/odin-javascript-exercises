@@ -1,10 +1,10 @@
-const reverseString = function(string) {
-return string.split("").reverse().join("");
-
-
-
+let str = prompt("type a word");
+const reverseString = function(str) {
+    return str.reverse()
 
 };
+reversedStr = reverseString(str);
+console.log(reversedStr);
 
 // Do not edit below this line
 module.exports = reverseString;

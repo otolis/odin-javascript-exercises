@@ -1,15 +1,9 @@
-const leapYears = function(year) {
-    if ( year%400 == 0 || year%4 == 0){
-        if (year == 1600 ){
-            return true;
-        } else if (year%100==0){
-            return false;
-        }
-        return true; 
-
-    } 
-    if (year % 2 !== 0){
-        return false;
+let currentYear = prompt ("what year is it");
+const leapYears = function() {
+    if (currentYear/4===0 || currentYear/400===0){
+        prompt("it is a leap year");
+    } else if (currentYear/100===0) {
+        prompt("it is not a leap year");
     }
 };
 

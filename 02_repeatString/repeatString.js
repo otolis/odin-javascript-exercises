@@ -1,10 +1,7 @@
-const repeatString = function(string,num) {
-    let repeatString= "";
-    for (let i=0; i<num; i++ ) {
-        repeatString = repeatString + string;
-        
-    }
-    return repeatString;
+let num = 3;
+let str = "hello";
+const repeatString = function() {
+    repeatString (str,3);
 };
 
 // Do not edit below this line
